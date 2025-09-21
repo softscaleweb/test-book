@@ -42,7 +42,7 @@ Route::middleware(['auth', 'role:customer'])->group(function () {
 
     // Hotel search & details
     Route::get('/search/hotels', [HotelController::class, 'index'])->name('search.hotels');
-    Route::get('/search/hotels/{id}', [HotelController::class, 'show'])->name('search.hotel.details');
+    Route::post('/search/hotels/', [HotelController::class, 'show'])->name('search.hotel.details');
     Route::post('/cart/hotels/add', [HotelController::class, 'addToCart'])->name('cart.hotels.add');
 
     // Cart / Checkout
