@@ -1,0 +1,18 @@
+[
+  {
+    "id": "HT001",
+    "name": "BMGA Residency",
+    "city": "Goa",
+    "room_type": "Deluxe King",
+    "refundable": true,
+    "price_per_night_in_inr": 4200
+  },
+  {
+    "id": "HT002",
+    "name": "Seaside Retreat",
+    "city": "Goa",
+    "room_type": "Standard Twin",
+    "refundable": false,
+    "price_per_night_in_inr": 2900
+  }
+]

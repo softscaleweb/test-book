@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FL001",
+    "airline": "BMGA Air",
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure": "2025-09-15T09:00:00+05:30",
+    "arrival": "2025-09-15T11:05:00+05:30",
+    "duration_mins": 125,
+    "refundable": true,
+    "price_in_inr": 6500
+  },
+  {
+    "id": "FL002",
+    "airline": "BMGA Air",
+    "origin": "DEL",
+    "destination": "BLR",
+    "departure": "2025-09-16T07:45:00+05:30",
+    "arrival": "2025-09-16T10:30:00+05:30",
+    "duration_mins": 165,
+    "refundable": false,
+    "price_in_inr": 7200
+  }
+]
